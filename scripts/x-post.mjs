@@ -7,12 +7,14 @@
 
 import { readFile } from "node:fs/promises";
 import { join, dirname } from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
+import { createHmac, randomBytes } from "node:crypto";
 import { SITE } from "./lib/pages.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const MAX = 280;
 const HANDLE = "@brightearlynews";
+const HASHTAGS = "#GoodNews #UpliftingNews #Positivity #Hope #GoodVibes";
 
 const prettyDate = (iso) =>
   new Date(iso + "T00:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric" });
@@ -30,7 +32,7 @@ export function buildPost(edition) {
 
   const link = `${SITE}`;
   const head = `🌅 Good news from ${prettyDate(edition.date)} —`;
-  const tail = `${edition.storyCount} stories to start your day with a smile:\n${link}\n\n#GoodNews #Positivity ${HANDLE}`;
+  const tail = `${edition.storyCount} stories to start your day with a smile:\n${link}\n\n${HASHTAGS} ${HANDLE}`;
 
   // Fit as many teaser headlines as the budget allows (each on its own • line).
   const budget = MAX - head.length - tail.length - 4; // padding for newlines
@@ -84,16 +86,72 @@ async function sendTelegram(post, edition) {
   console.log(`  🐦 Sent today's X post to Telegram (${post.length}/280 chars)`);
 }
 
+// --- Auto-post to X (Twitter) via OAuth 1.0a user context ----------------------
+// No SDK: we sign the request ourselves. Note that for v2 JSON-body endpoints the
+// JSON body is NOT part of the OAuth signature base string — only the oauth_* params.
+
+const pct = (s) =>
+  encodeURIComponent(s).replace(/[!*'()]/g, (c) => "%" + c.charCodeAt(0).toString(16).toUpperCase());
+
+async function postToX(post) {
+  const ck = process.env.X_API_KEY;
+  const cs = process.env.X_API_SECRET;
+  const tok = process.env.X_ACCESS_TOKEN;
+  const ts = process.env.X_ACCESS_TOKEN_SECRET;
+  if (!ck || !cs || !tok || !ts) {
+    console.log("  (no X_* keys — skipping X auto-post)");
+    return;
+  }
+  const url = "https://api.twitter.com/2/tweets";
+  const oauth = {
+    oauth_consumer_key: ck,
+    oauth_nonce: randomBytes(16).toString("hex"),
+    oauth_signature_method: "HMAC-SHA1",
+    oauth_timestamp: Math.floor(Date.now() / 1000).toString(),
+    oauth_token: tok,
+    oauth_version: "1.0",
+  };
+  const paramStr = Object.keys(oauth).sort().map((k) => `${pct(k)}=${pct(oauth[k])}`).join("&");
+  const base = ["POST", pct(url), pct(paramStr)].join("&");
+  const signingKey = `${pct(cs)}&${pct(ts)}`;
+  oauth.oauth_signature = createHmac("sha1", signingKey).update(base).digest("base64");
+  const auth = "OAuth " + Object.keys(oauth).sort().map((k) => `${pct(k)}="${pct(oauth[k])}"`).join(", ");
+
+  const res = await fetch(url, {
+    method: "POST",
+    headers: { Authorization: auth, "Content-Type": "application/json" },
+    body: JSON.stringify({ text: post }),
+  });
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(`X ${res.status}: ${JSON.stringify(data).slice(0, 300)}`);
+  console.log(`  🐦 Posted to X: https://x.com/brightearlynews/status/${data?.data?.id}`);
+}
+
 async function main() {
   const edition = JSON.parse(await readFile(join(ROOT, "public", "data", "latest.json"), "utf8"));
   if (!edition.stories?.length) {
     console.log("  (empty edition — skipping X post)");
     return;
   }
-  await sendTelegram(buildPost(edition), edition);
+  const post = buildPost(edition);
+
+  // Each channel is independent — one failing shouldn't block the other.
+  let failed = false;
+  for (const send of [sendTelegram, postToX]) {
+    try {
+      await send(post, edition);
+    } catch (err) {
+      failed = true;
+      console.error(`  ! ${send.name} failed: ${err.message}`);
+    }
+  }
+  if (failed) process.exitCode = 1;
 }
 
-main().catch((err) => {
-  console.error("X post failed:", err.message);
-  process.exit(1);
-});
+// Only run when invoked directly (so other scripts can import buildPost).
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((err) => {
+    console.error("X post failed:", err.message);
+    process.exit(1);
+  });
+}

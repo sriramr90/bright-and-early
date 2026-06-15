@@ -9,7 +9,7 @@
 
 import { readFile } from "node:fs/promises";
 import { join, dirname } from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import { SITE } from "./lib/pages.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -36,7 +36,7 @@ const KEYWORD_SUBS = [
   { re: /\b(soccer|football|cricket|tennis|hockey|baseball|basketball|olympic)\b/i, subs: ["r/sports"] },
 ];
 
-function subsFor(story) {
+export function subsFor(story) {
   const text = `${story.headline} ${story.summary || ""}`;
   const subs = [...(SECTION_SUBS[story.section] || ["r/UpliftingNews"])];
   for (const { re, subs: extra } of KEYWORD_SUBS) {
@@ -77,7 +77,9 @@ async function main() {
   console.log(`   Early only if asked.\n`);
 }
 
-main().catch((err) => {
-  console.error("Reddit picker failed:", err.message);
-  process.exit(1);
-});
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((err) => {
+    console.error("Reddit picker failed:", err.message);
+    process.exit(1);
+  });
+}
