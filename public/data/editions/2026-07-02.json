@@ -1,6 +1,6 @@
 {
   "date": "2026-07-02",
-  "generatedAt": "2026-07-02T12:23:46.989Z",
+  "generatedAt": "2026-07-02T12:40:19.307Z",
   "masthead": "Bright & Early",
   "tagline": "Yesterday's good news, bright and early.",
   "sections": [
@@ -10,12 +10,12 @@
     "Kind Humans",
     "Earth Restored"
   ],
-  "storyCount": 12,
+  "storyCount": 11,
   "stories": [
     {
       "id": "scg5ecr",
-      "headline": "From Football's Shadow to Glory: Defender Canale Leads Paraguay Past Germany",
-      "summary": "Jose Canale, a 30-year-old defender who bounced between clubs for years, scored the decisive penalty on his first competitive start to knock four-time champion Germany out of the World Cup.",
+      "headline": "From Football's Wilderness to Glory: Jose Canale Delivers Paraguay's Stunning World Cup Win",
+      "summary": "Jose Canale, 30, scored the decisive penalty on his first competitive start for Paraguay to shock four-time champion Germany in a stunning World Cup upset.",
       "section": "Global Wins",
       "positivity": 0.92,
       "url": "https://www.straitstimes.com/sport/football/after-years-in-footballs-wilderness-paraguays-canale-steps-up-to-sink-germany",
@@ -24,53 +24,31 @@
       "publishedAt": "2026-06-30"
     },
     {
-      "id": "sm5mw59",
-      "headline": "Couple Stays Behind in Wildfire to Care for 51 Abandoned Dogs",
-      "summary": "During evacuation, Diedra and Derek remained to feed 51 stranded dogs three times daily, bringing solace to families who feared for their pets.",
-      "section": "Kind Humans",
-      "positivity": 0.91,
-      "url": "https://pqbnews.com/2026/07/01/couple-cares-for-pets-left-behind-during-fort-simpson-nwt-wildfire/",
-      "image": "https://pqbnews.com/wp-content/uploads/sites/11/2026/07/42704403_web1_260701-YEL-SimpsonPets-Photo_1.jpg?w=1002",
-      "source": "pqbnews.com",
-      "publishedAt": "2026-07-01"
-    },
-    {
-      "id": "s1vswgq3",
-      "headline": "Black Skimmer Chicks Hatch on Florida Beach After 30 Years of Silence",
-      "summary": "After 30 years of silence, the first black skimmer chick has hatched on Sanibel Causeway, where volunteers are painting shelters to protect the fragile nesting colony.",
-      "section": "Earth Restored",
-      "positivity": 0.9,
-      "url": "https://www.gulfcoastnewsnow.com/article/black-skimmer-chicks-hatch-sanibel-causeway-30-years/71794767",
-      "image": "https://kubrick.htvapps.com/htv-prod/images/a03d9165-028d-492b-959d-5d30bbbcc9dc.png?resize=1200%3A*&crop=1.00xw%3A1.00xh%3B0%2C0",
-      "source": "gulfcoastnewsnow.com",
-      "publishedAt": "2026-07-01"
-    },
-    {
-      "id": "s1m8f4yk",
-      "headline": "Mozambique's Rhino Rescue: 61 Animals Settle Into New Home, Calf Already Born",
-      "summary": "Mozambique returned 61 rhinos to Zinave National Park after a devastating civil war wiped them out, and a black rhino calf has already been born.",
-      "section": "Earth Restored",
-      "positivity": 0.89,
-      "url": "https://www.goodnewsnetwork.org/herculean-effort-to-restore-mozambiques-rhino-population-succeeds-with-61-animals-moved-there/",
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/06/credit-Peace-Parks-Foundation-©.jpg",
-      "source": "goodnewsnetwork.org",
-      "publishedAt": "2026-06-30"
-    },
-    {
       "id": "slgnqm4",
-      "headline": "Indian Surgeons Gift Engineer Second Life with Landmark Five-Organ Transplant",
-      "summary": "Indian surgeons performed a grueling 36-hour surgery to transplant five organs—stomach, pancreas, small intestine, duodenum, and colon—into a 30-year-old engineer, India's first multi-visceral transplant.",
+      "headline": "Thirty-Six Hours of Extraordinary Care: Indian Surgeons Give Young Engineer Five New Organs",
+      "summary": "Indian surgeons completed a remarkable 36-hour surgery, transplanting five organs—stomach, duodenum, pancreas, small intestine, and right colon—into a 30-year-old engineer.",
       "section": "Global Wins",
-      "positivity": 0.88,
+      "positivity": 0.89,
       "url": "https://www.thehindu.com/news/cities/Hyderabad/telanganas-ogh-doctors-perform-36-hour-surgery-to-transplant-five-organs-on-one-patient/article71169268.ece",
       "image": "https://th-i.thgim.com/public/incoming/8dbti6/article71169294.ece/alternates/LANDSCAPE_1200/DSC_2853.jpg",
       "source": "thehindu.com",
       "publishedAt": "2026-07-01"
     },
     {
+      "id": "sm5mw59",
+      "headline": "Two Hearts Stay Behind: Couple Tends 51 Abandoned Dogs During Evacuation",
+      "summary": "Diedra Villeneuve and Derek McKillop stayed behind during wildfire evacuation to feed and comfort 51 abandoned dogs three times daily.",
+      "section": "Global Wins",
+      "positivity": 0.88,
+      "url": "https://pqbnews.com/2026/07/01/couple-cares-for-pets-left-behind-during-fort-simpson-nwt-wildfire/",
+      "image": "https://pqbnews.com/wp-content/uploads/sites/11/2026/07/42704403_web1_260701-YEL-SimpsonPets-Photo_1.jpg?w=1002",
+      "source": "pqbnews.com",
+      "publishedAt": "2026-07-01"
+    },
+    {
       "id": "smmzygo",
-      "headline": "Washoe Tribe and Federal Partners Restore Ancient Trout to Lake Tahoe",
-      "summary": "The Washoe Tribe and U.S. Fish and Wildlife Service together released over 1,000 native Lahontan cutthroat trout into Lake Tahoe, restoring a culturally vital species after decades.",
+      "headline": "Native Trout Swim Home: Washoe Tribe and U.S. Partners Restore Lake Tahoe's Sacred Waters",
+      "summary": "The Washoe Tribe and U.S. Fish & Wildlife Service welcomed 39 white rhinos and 22 black rhinos back to Lake Tahoe's sacred waters after a decade-long restoration effort.",
       "section": "Global Wins",
       "positivity": 0.87,
       "url": "https://www.sierrasun.com/news/thousands-of-native-lahontan-cutthroat-trout-released-into-lake-tahoe-in-historic-partnership/",
@@ -79,68 +57,79 @@
       "publishedAt": "2026-07-01"
     },
     {
-      "id": "sgcetoy",
-      "headline": "Windsor Community Delivers Comfort Pizza to Cancer Fighter in Northern Ontario",
-      "summary": "A Facebook craving became an outpouring of love when a community sent special pizza to support an evacuee's cancer-stricken father.",
+      "id": "so33222",
+      "headline": "Petals of Surprise: Florist Plants 20 Bouquets Across Her City to Brighten Strangers' Days",
+      "summary": "Florist Sarah Lang left 20 surprise flower bouquets across Launceston, including one received by a homeless man who plans to place flowers on a loved one's grave.",
       "section": "Kind Humans",
       "positivity": 0.86,
-      "url": "https://www.ctvnews.ca/northern-ontario/article/slice-of-home-former-windsor-resident-gets-special-pizza-delivery-to-northern-ont-to-boost-cancer-battle/",
-      "image": "https://www.ctvnews.ca/resizer/v2/L3OLVNGM6RDF7P3MG3WG6FMSJQ.jpg?smart=true&auth=329b0588c3d964f650d476481a7f25fd656fa06a71992e2362eb92c56f32fc61&width=1200&height=630",
-      "source": "ctvnews.ca",
-      "publishedAt": "2026-07-01"
-    },
-    {
-      "id": "s4njjch",
-      "headline": "Champion Badminton Star Loses Medal Match, Wins Hearts with Honest Sportsmanship",
-      "summary": "Srikanth intentionally forfeited a point to correct a referee's mistake, proving character and integrity matter more than trophies.",
-      "section": "Global Wins",
-      "positivity": 0.85,
-      "url": "https://thelogicalindian.com/kidambi-srikanth-wins-silver-at-us-open-badminton-tournament-after-tough-final-against-su-li-yang/",
-      "source": "thelogicalindian.com",
-      "publishedAt": "2026-06-30"
-    },
-    {
-      "id": "s1nayyct",
-      "headline": "Lost Moth Found: Dover Twist Returns After 73 Years Missing From England",
-      "summary": "The Dover Twist moth, a tiny 16mm-winged species missing for 73 years, is thriving again after ecologist Rebecca Levey rediscovered it last year and over 20 were found in a recent survey.",
-      "section": "Earth Restored",
-      "positivity": 0.85,
-      "url": "https://whatsthejam.com/nature-and-wildlife/tiny-insect-thought-extinct-for-73-years-makes-incredible-comeback-as-more-than-20-found/",
-      "image": "https://whatsthejam.com/wp-content/uploads/2026/07/Tiny-insect-thought-EXTINCT-for-73-years-makes-incredible-comeback-as-more-than-20-found.webp",
-      "source": "whatsthejam.com",
-      "publishedAt": "2026-07-01"
-    },
-    {
-      "id": "so33222",
-      "headline": "Florist Leaves 20 Free Bouquets Across Town to Brighten Winter Days",
-      "summary": "Sarah Lang and her employee left 20 free flower bouquets around Launceston for strangers to find and brighten their winter days.",
-      "section": "Kind Humans",
-      "positivity": 0.84,
       "url": "https://www.examiner.com.au/story/9301739/sarah-lang-launceston-florist-spreads-joy-with-20-free-bunches/",
       "image": "https://www.examiner.com.au/images/transform/v1/crop/frm/231589721/ea6a7e0b-2707-4153-a1f7-744bb8fc3c54.jpg/r0_555_7841_4672_w1200_h630_fmax.jpg",
       "source": "examiner.com.au",
       "publishedAt": "2026-07-01"
     },
     {
+      "id": "s4njjch",
+      "headline": "Silver Medal, Golden Character: Badminton Star Corrects Referee to Honor the Game",
+      "summary": "Badminton veteran Srikanth earned worldwide admiration by intentionally forfeiting a point to correct a refereeing error at the US Open, proving character shines brighter than any medal.",
+      "section": "Fair Play & Triumphs",
+      "positivity": 0.85,
+      "url": "https://thelogicalindian.com/kidambi-srikanth-wins-silver-at-us-open-badminton-tournament-after-tough-final-against-su-li-yang/",
+      "source": "thelogicalindian.com",
+      "publishedAt": "2026-06-30"
+    },
+    {
       "id": "sojmq1o",
-      "headline": "Road Patcher's 70 Years of Quiet Service Honored by Grateful Community",
-      "summary": "Chee Siew Kuan, a 70-year-old who has spent nearly a decade patching potholes with construction debris and cleaning roads, finally received recognition and aid from his grateful community.",
+      "headline": "A Decade of Quiet Service Rewarded: Community Honours 'Road Patcher' Chee Siew Kuan",
+      "summary": "Chee Siew Kuan, 70, received heartfelt recognition after nearly a decade of quietly patching potholes around Tanjung Malim with construction debris.",
       "section": "Kind Humans",
-      "positivity": 0.83,
+      "positivity": 0.84,
       "url": "https://www.thestar.com.my/metro/metro-news/2026/07/01/70-year-old-road-patcher-gets-heartfelt-reward-for-selfless-service",
       "image": "https://apicms.thestar.com.my/uploads/images/2026/07/01/3985456.jpg",
       "source": "thestar.com.my",
       "publishedAt": "2026-07-01"
     },
     {
-      "id": "s16veikl",
-      "headline": "Scientists Build Living Cell From Scratch, Opening Doors to Life's Mysteries",
-      "summary": "Researchers created a fully synthetic cell that grows, replicates DNA, and divides—a landmark breakthrough toward understanding life itself.",
-      "section": "Future Proof",
+      "id": "s1m8f4yk",
+      "headline": "Sixty-One Rhinos Come Home: Mozambique's Conservation Dream Succeeds With a Newborn Calf",
+      "summary": "Mozambique's Zinave National Park celebrated the birth of a black rhino calf among 61 reintroduced rhinos—39 white and 22 black—marking a triumphant decade of conservation.",
+      "section": "Earth Restored",
+      "positivity": 0.84,
+      "url": "https://www.goodnewsnetwork.org/herculean-effort-to-restore-mozambiques-rhino-population-succeeds-with-61-animals-moved-there/",
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/06/credit-Peace-Parks-Foundation-©.jpg",
+      "source": "goodnewsnetwork.org",
+      "publishedAt": "2026-06-30"
+    },
+    {
+      "id": "s1nayyct",
+      "headline": "Lost 73 Years, Found Again: Rare Moth Makes Delightful Return from Extinction's Brink",
+      "summary": "More than 20 Dover twist moths—vanished for 73 years—have been discovered thriving in Kent, marking an extraordinary resurrection of the endangered species.",
+      "section": "Earth Restored",
+      "positivity": 0.83,
+      "url": "https://whatsthejam.com/nature-and-wildlife/tiny-insect-thought-extinct-for-73-years-makes-incredible-comeback-as-more-than-20-found/",
+      "image": "https://whatsthejam.com/wp-content/uploads/2026/07/Tiny-insect-thought-EXTINCT-for-73-years-makes-incredible-comeback-as-more-than-20-found.webp",
+      "source": "whatsthejam.com",
+      "publishedAt": "2026-07-01"
+    },
+    {
+      "id": "sgcetoy",
+      "headline": "Pizza Crosses Distance to Comfort a Father: Community Delivers Craving and Care",
+      "summary": "After a father mentioned his pizza craving on Facebook, his Windsor community rallied to deliver beloved local pizza to his sickbed in northern Ontario—nourishing hope alongside hunger.",
+      "section": "Kind Humans",
       "positivity": 0.82,
-      "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
-      "image": "https://www.quantamagazine.org/wp-content/uploads/2026/07/SyntheticLife-cr-Ada-Zejun-Shen-social.jpg",
-      "source": "quantamagazine.org",
+      "url": "https://www.ctvnews.ca/northern-ontario/article/slice-of-home-former-windsor-resident-gets-special-pizza-delivery-to-northern-ont-to-boost-cancer-battle/",
+      "image": "https://www.ctvnews.ca/resizer/v2/L3OLVNGM6RDF7P3MG3WG6FMSJQ.jpg?smart=true&auth=329b0588c3d964f650d476481a7f25fd656fa06a71992e2362eb92c56f32fc61&width=1200&height=630",
+      "source": "ctvnews.ca",
+      "publishedAt": "2026-07-01"
+    },
+    {
+      "id": "s1vswgq3",
+      "headline": "Thirty Years of Silence Broken: Black Skimmer Chicks Hatch Again on Florida Causeway",
+      "summary": "The first black skimmer chicks in over three decades hatched on Sanibel Causeway, where volunteers are building shelters to protect the endangered shorebirds from predators.",
+      "section": "Earth Restored",
+      "positivity": 0.81,
+      "url": "https://www.gulfcoastnewsnow.com/article/black-skimmer-chicks-hatch-sanibel-causeway-30-years/71794767",
+      "image": "https://kubrick.htvapps.com/htv-prod/images/a03d9165-028d-492b-959d-5d30bbbcc9dc.png?resize=1200%3A*&crop=1.00xw%3A1.00xh%3B0%2C0",
+      "source": "gulfcoastnewsnow.com",
       "publishedAt": "2026-07-01"
     }
   ]
