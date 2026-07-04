@@ -1,6 +1,6 @@
 {
   "date": "2026-07-04",
-  "generatedAt": "2026-07-04T11:48:50.764Z",
+  "generatedAt": "2026-07-04T12:40:14.675Z",
   "masthead": "Bright & Early",
   "tagline": "Yesterday's good news, bright and early.",
   "sections": [
@@ -14,8 +14,8 @@
   "stories": [
     {
       "id": "s1l112zd",
-      "headline": "Against All Odds: Cancer Survivor Conquers 100-Mile Mountain Race",
-      "summary": "Two-time cancer survivor Christina Klayko completed a grueling 100-mile ultramarathon just a year after hysterectomy and radiation, inspiring thousands with her resilience.",
+      "headline": "Cancer Survivor Conquers 100-Mile Mountain Race One Year After Surgery",
+      "summary": "Christina Klayko, a two-time cancer survivor, completes the grueling Western States Endurance Run just 12 months after major surgery and radiation—a stunning testament to human resilience.",
       "section": "Global Wins",
       "positivity": 0.92,
       "url": "https://dnyuz.com/2026/07/02/100-miles-of-agony-and-hope-a-cancer-survivors-ultramarathon-journey/",
@@ -24,42 +24,63 @@
       "publishedAt": "2026-07-02"
     },
     {
-      "id": "s1mfx63g",
-      "headline": "Small-Town Athletes Return as Champions, Fire Trucks Lead the Parade",
-      "summary": "Gabriella Baker, competing in her first Special Olympics, set a new USA Games record with an 800-meter time of 2:33.88, making history on her hometown's Fourth of July homecoming parade.",
+      "id": "s1p73kee",
+      "headline": "Goalkeeper Who Sold His Jersey to Save His Son Becomes World Cup Hero",
+      "summary": "Orlando Gill, who sold his treasured jerseys four years ago to pay for newborn son Lautaro Daniel's life-saving surgery, became Paraguay's World Cup hero, denying Germany twice in a dramatic penalty shootout.",
       "section": "Global Wins",
-      "positivity": 0.9,
+      "positivity": 0.89,
+      "url": "https://english.mathrubhumi.com/sports/football/paraguay-orlando-gill-story-sold-jersey-sneakers-world-cup-2026-hero-eyla2jah",
+      "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1s7dmps0etzrqkv2jl3/0/orlando-gill.jpeg?f=16%3A9&w=1200&q=0.75",
+      "source": "english.mathrubhumi.com",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "id": "sbcpyog",
+      "headline": "Young Girl's Lemonade Stand Honors Lost Community Hero, Feeds the Hungry",
+      "summary": "Ava set up a lemonade stand to raise funds for her late hero Sam Saberi's free meal program, keeping his legacy of generosity alive in her neighborhood.",
+      "section": "Global Wins",
+      "positivity": 0.88,
+      "url": "https://www.villagereport.ca/village-picks/we-hope-were-making-sam-proud-girls-lemonade-stand-honours-community-hero-12503796",
+      "source": "villagereport.ca",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "id": "s751xqx",
+      "headline": "From Ashes of Loss, a Garden Blooms—and Feeds a Neighborhood",
+      "summary": "After losing her home to fire, Yvette Leno transformed grief into Beauty's Community Garden, freely sharing fresh produce and her grandmother's spirit of generosity with Independence Heights.",
+      "section": "Global Wins",
+      "positivity": 0.87,
+      "url": "https://www.click2houston.com/news/local/2026/07/03/2-helps-you-a-houston-familys-legacy-impacts-independence-heights-with-community-garden/",
+      "image": "https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_thumb,w_700/v1/media/video/kprc/a1962387-6d9c-4234-a341-3dbc03820df7/image.jpg?_a=DATAg1iuZAA0",
+      "source": "click2houston.com",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "id": "s1fhc9la",
+      "headline": "Police Officer Becomes Angel in the Heat, Buying Water for Vulnerable Neighbors",
+      "summary": "Officer Evan Howard personally purchases cases of water for homeless and vulnerable neighbors during extreme heat, enlisting his grocery store and community to help.",
+      "section": "Kind Humans",
+      "positivity": 0.86,
+      "url": "https://irontontribune.com/2026/07/02/ipd-officer-sets-up-water-stations/",
+      "image": "https://irontontribune.com/wp-content/uploads/sites/17/2026/04/CITY-IRONTON-2.jpg?w=1024",
+      "source": "irontontribune.com",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "id": "s1mfx63g",
+      "headline": "Special Olympics Athletes Return Home as Champions, Break National Records",
+      "summary": "Gabriella Baker, 21-year-old Dothan athlete, set a new Special Olympics USA Games record in the 800-meter run with a time of 2:33.88, honoring her family's running legacy.",
+      "section": "Fair Play & Triumphs",
+      "positivity": 0.85,
       "url": "https://www.wtvy.com/2026/07/02/dothan-athletes-return-home-with-medals-after-historic-run-2026-special-olympics-usa-games/",
       "image": "https://gray-wtvy-prod.gtv-cdn.com/resizer/v2/W3LBJTHYWRDZDEV46DVOBIXANI.jpg?auth=985af7696938e73f9a108d7a9617543b37a85c3f4448ba0039aa168668191855&width=1200&height=600&smart=true",
       "source": "wtvy.com",
       "publishedAt": "2026-07-02"
     },
     {
-      "id": "syjneuq",
-      "headline": "Two Strangers Rush Into Flames to Save Family",
-      "summary": "Mohsin Qayyum, 22, and Mohammed Yusuf Iqbal, 20, drove past a burning house in Leeds and ran across flaming roofs to rescue 77-year-old Sheila Robinson and her grandson.",
-      "section": "Global Wins",
-      "positivity": 0.88,
-      "url": "https://www.bbc.co.uk/news/articles/cnv9pym0v98o",
-      "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/6e88/live/d2f9c850-76fb-11f1-8b66-2595602b4548.jpg",
-      "source": "bbc.co.uk",
-      "publishedAt": "2026-07-03"
-    },
-    {
-      "id": "sc2nfmg",
-      "headline": "Scientists Create the First Fully Synthetic Living Cell",
-      "summary": "University of Minnesota scientists created SpudCell, the first fully synthetic living cell with just 90 kilobase pairs of genetic data, defying the assumption that life requires at least 113.",
-      "section": "Global Wins",
-      "positivity": 0.85,
-      "url": "https://www.sciencealert.com/for-the-first-time-scientists-say-theyve-built-a-synthetic-cell-from-scratch",
-      "image": "https://www.sciencealert.com/images/2026/07/SpudCellsSynthetic.gif",
-      "source": "sciencealert.com",
-      "publishedAt": "2026-07-02"
-    },
-    {
       "id": "so2y8gf",
-      "headline": "Ronaldo Honors Fallen Teammate in Emotional World Cup Victory",
-      "summary": "At 41, Cristiano Ronaldo scored Portugal's World Cup knockout win and tearfully wore late teammate Diogo Jota's No. 21 jersey, honoring him on the first anniversary of his death.",
+      "headline": "Ronaldo Honors Fallen Teammate, Scores World Cup Knockout Goal in Emotional Victory",
+      "summary": "At 41, Cristiano Ronaldo scored his first World Cup knockout goal and wore late teammate Diogo Jota's No. 21 jersey after Portugal's 2-1 victory, on the first anniversary of Jota's death.",
       "section": "Fair Play & Triumphs",
       "positivity": 0.82,
       "url": "https://www.thenationalnews.com/sport/world-cup-2026/2026/07/03/cristiano-ronaldo-dedicates-portugals-world-cup-win-to-late-teammate-diogo-jota-we-knew-he-was-present/",
@@ -68,57 +89,37 @@
       "publishedAt": "2026-07-03"
     },
     {
-      "id": "s1e31a5u",
-      "headline": "Restaurant Community Rallies to Aid Earthquake Survivors Across the Sea",
-      "summary": "Venezuelan restaurant owner Andrea Osorio mobilized volunteers through social media who showed up with tape and boxes to pack emergency supplies at Carupano Kitchen for earthquake survivors back home.",
-      "section": "Kind Humans",
-      "positivity": 0.79,
-      "url": "https://patch.com/florida/stpete/st-pete-venezuelan-restaurant-collecting-medical-supplies-earthquake-survivors",
-      "image": "https://patch.com/img/cdn20/shutterstock/24559556/20260702/051353/styles/patch_image/public/shutterstock-2580383507___02171007017.jpg",
-      "source": "patch.com",
-      "publishedAt": "2026-07-02"
-    },
-    {
-      "id": "s1fhc9la",
-      "headline": "Police Officer's Kindness: Water Stations for Those in Need",
-      "summary": "A caring police officer bought cases of water during a brutal heatwave and set up stations across town to help unhoused people and those without access.",
-      "section": "Kind Humans",
-      "positivity": 0.78,
-      "url": "https://irontontribune.com/2026/07/02/ipd-officer-sets-up-water-stations/",
-      "image": "https://irontontribune.com/wp-content/uploads/sites/17/2026/04/CITY-IRONTON-2.jpg?w=1024",
-      "source": "irontontribune.com",
+      "id": "sl004hv",
+      "headline": "Rare Butterflies Return Home: 300 Mitchell's Satyrs Reintroduced to Restored Wetland",
+      "summary": "After 20 years of work, natural resource specialist Michele Richards and her team released 300 endangered Mitchell's satyr butterflies into Fort Custer's restored wetland, a pinnacle moment for military conservation.",
+      "section": "Earth Restored",
+      "positivity": 0.81,
+      "url": "https://www.wcmu.org/local-regional-news/2026-07-03/federally-endangered-mitchells-satyr-butterflies-are-being-reintroduced-at-fort-custer-this-week",
+      "image": "https://npr.brightspotcdn.com/dims4/default/14dd871/2147483647/strip/true/crop/4000x2100+0+75/resize/1200x630!/quality/90/?url=https%3A%2F%2Fnpr.brightspotcdn.com%2Fdims3%2Fdefault%2Fstrip%2Ffalse%2Fcrop%2F4000x2250%200%200%2Fresize%2F4000x2250%21%2F%3Furl%3Dhttp%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fdd%2F2b%2F3e9504cf42179fd65243f687f4de%2Fkuhn-with-butterflies.JPG",
+      "source": "wcmu.org",
       "publishedAt": "2026-07-03"
     },
     {
       "id": "s104oav2",
-      "headline": "Britain's Native Crayfish Gets a Second Chance",
-      "summary": "Wildwood Trust released 70 endangered white-clawed crayfish into a Devon reserve, restoring Britain's only native freshwater crayfish to the wild after more than a year of careful habitat preparation.",
+      "headline": "Endangered Crayfish Get a Second Chance: Britain's First New Wild Population Established",
+      "summary": "Wildwood Trust released 70 white-clawed crayfish into a Devon nature reserve, establishing Britain's first new wild population of this endangered species through captive breeding from the River Creedy-Yeo.",
       "section": "Earth Restored",
-      "positivity": 0.76,
+      "positivity": 0.78,
       "url": "https://www.devonwildlifetrust.org/news/rescued-native-crayfish-given-new-lease-life-devon-conservation-reintroduction",
       "image": "https://www.devonwildlifetrust.org/sites/default/files/styles/large/public/2018-01/AMU_PA_101209_0052.jpg?itok=HSv-tGO-",
       "source": "devonwildlifetrust.org",
       "publishedAt": "2026-07-03"
     },
     {
-      "id": "sqrww09",
-      "headline": "Rare Fungi Hold Key to Restoring Island Rainforests",
-      "summary": "Scientists discovered symbiotic fungi critical to recovering native forests on remote Palmyra Atoll, offering real hope for reforestation efforts worldwide.",
-      "section": "Earth Restored",
-      "positivity": 0.72,
-      "url": "https://mainnews.co.za/environment/rare-fungi-help-restore-palmyra-atoll-rainforests-new-study-finds-heres-how/",
-      "source": "mainnews.co.za",
-      "publishedAt": "2026-07-03"
-    },
-    {
-      "id": "syehqy1",
-      "headline": "Solar Reactor Learns to Think Like a Plant—No Batteries Needed",
-      "summary": "Osaka researchers built a self-regulating solar electrolyzer that produces fuel from water and CO₂, adjusting to sunlight shifts through material physics alone.",
+      "id": "sjnwvfg",
+      "headline": "Korean Engineers Grow Artificial Pancreas Cells That Nearly Match Healthy Human Insulin",
+      "summary": "POSTECH researchers used 3D printing to create artificial pancreas cells with electrical stimulation, nearly matching the insulin-secreting capacity of healthy human cells—a breakthrough for type 1 diabetes treatment.",
       "section": "Future Proof",
-      "positivity": 0.68,
-      "url": "https://energiesmedia.com/osaka-solar-reactor-self-regulating-sun/",
-      "source": "energiesmedia.com",
-      "publishedAt": "2026-07-02"
+      "positivity": 0.73,
+      "url": "https://m.dongascience.com/en/news/78756",
+      "image": "https://image.dongascience.com/Photo/2026/07/1783042726735.png",
+      "source": "m.dongascience.com",
+      "publishedAt": "2026-07-03"
     }
   ]
 }
