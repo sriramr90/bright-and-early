@@ -1,6 +1,6 @@
 {
   "date": "2026-07-05",
-  "generatedAt": "2026-07-05T11:50:05.039Z",
+  "generatedAt": "2026-07-05T12:40:17.375Z",
   "masthead": "Bright & Early",
   "tagline": "Yesterday's good news, bright and early.",
   "sections": [
@@ -10,34 +10,34 @@
     "Kind Humans",
     "Earth Restored"
   ],
-  "storyCount": 11,
+  "storyCount": 9,
   "stories": [
     {
-      "id": "slz4tzw",
-      "headline": "Messi's Words of Grace: Argentina's Star Honors Cape Verde's Heroic Goalkeeper",
-      "summary": "After an epic match, Lionel Messi embraces Cape Verde's 40-year-old goalkeeper Vozinha, offering words of praise that will stay with him forever.",
+      "id": "s1qonfga",
+      "headline": "Toddlers with sickle cell now have access to gene therapy that frees them from pain",
+      "summary": "CRISPR treatment approved for children as young as two; 100% of trial patients achieved freedom from severe pain crises.",
       "section": "Global Wins",
       "positivity": 0.92,
-      "url": "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/i-went-up-to-lionel-messi-after-the-game-he-said-vozinha-reveals-argentina-skippers-words-after-fifa-world-cup-exit/articleshow/132177877.cms",
-      "image": "https://static.toiimg.com/thumb/msid-132178227,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "source": "timesofindia.indiatimes.com",
-      "publishedAt": "2026-07-04"
-    },
-    {
-      "id": "s1qonfga",
-      "headline": "Toddlers with Sickle Cell Now Offered a Cure—Gene Therapy Opens New Hope",
-      "summary": "Children as young as two can now access CRISPR gene therapy, potentially curing sickle cell disease before irreversible organ damage occurs.",
-      "section": "Global Wins",
-      "positivity": 0.89,
       "url": "https://www.techtimes.com/articles/319696/20260704/crispr-sickle-cell-therapy-now-cleared-children-starting-age-two.htm",
       "image": "https://d.techtimes.com/en/full/468061/crispr-sickle-cell.png",
       "source": "techtimes.com",
       "publishedAt": "2026-07-04"
     },
     {
+      "id": "slz4tzw",
+      "headline": "Messi's embrace: 'Your people should be proud of you'",
+      "summary": "After Cape Verde's brave World Cup run, Lionel Messi embraced goalkeeper Vozinha with words of honor that will echo forever.",
+      "section": "Global Wins",
+      "positivity": 0.89,
+      "url": "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/i-went-up-to-lionel-messi-after-the-game-he-said-vozinha-reveals-argentina-skippers-words-after-fifa-world-cup-exit/articleshow/132177877.cms",
+      "image": "https://static.toiimg.com/thumb/msid-132178227,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "source": "timesofindia.indiatimes.com",
+      "publishedAt": "2026-07-04"
+    },
+    {
       "id": "slqquus",
-      "headline": "Twenty Years of Patriotic Love: One Woman's Flag Tradition Unites Her Entire Neighborhood",
-      "summary": "Ruth Perdue's 20-year tradition places 144 flags at every mailbox on her street each Fourth of July, bringing neighbors together and delighting her elderly friends.",
+      "headline": "Twenty years of flags: One woman's quiet gift to her neighbors",
+      "summary": "Ruth Perdue has decorated over 100 neighborhood mailboxes with American flags every July 3 for two decades—pure patriotic delight.",
       "section": "Global Wins",
       "positivity": 0.88,
       "url": "https://www.lagrangenews.com/news/perdue-decorates-her-neighborhood-with-flags-3f11a20a",
@@ -45,9 +45,19 @@
       "publishedAt": "2026-07-03"
     },
     {
+      "id": "s6ozrky",
+      "headline": "Through tears and pain, Salah leads Egypt to historic World Cup victory",
+      "summary": "Mohamed Salah, 34, played through a hamstring strain to lead Egypt to their first-ever World Cup knockout win, defeating Australia 4-2 on penalties.",
+      "section": "Global Wins",
+      "positivity": 0.87,
+      "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/03/mo-salah-egypt-world-cup-win-australia/90798352007/",
+      "source": "usatoday.com",
+      "publishedAt": "2026-07-03"
+    },
+    {
       "id": "s1halctz",
-      "headline": "Tangled and Trapped: Humpback Whale Gets a Second Chance Thanks to Concerned Mariners",
-      "summary": "Concerned fishermen spotted a juvenile humpback whale tangled in two 800-pound crab pots in Alaska's Endicott Arm and alerted rescuers, who freed the animal to swim again.",
+      "headline": "Community alerts lead rescuers to free juvenile humpback from crab pots",
+      "summary": "A juvenile humpback whale trapped under 800 pounds of crab pots in Alaska's Endicott Arm was freed after mariners' alerts sparked a multi-agency rescue.",
       "section": "Earth Restored",
       "positivity": 0.86,
       "url": "https://www.popsci.com/environment/humpback-whale-freed-alaska/",
@@ -56,81 +66,48 @@
       "publishedAt": "2026-07-03"
     },
     {
-      "id": "s13p6es3",
-      "headline": "Young Filipino Star Alex Eala Stuns Wimbledon Champion in Career-Defining Upset",
-      "summary": "Twenty-one-year-old Filipino phenom Alex Eala defeats defending champion Iga Swiatek 6-4, 3-6, 7-5 on Centre Court in a career-defining Wimbledon third-round upset.",
-      "section": "Global Wins",
-      "positivity": 0.85,
-      "url": "https://www.latestly.com/sports/tennis/wimbledon-2026-alex-eala-stuns-defending-champion-iga-swiatek-in-thrilling-third-round-upset-7503143.html",
-      "image": "https://st1.latestly.com/wp-content/uploads/2026/07/eala-784x441.jpg",
-      "source": "latestly.com",
-      "publishedAt": "2026-07-04"
-    },
-    {
       "id": "s15721hl",
-      "headline": "Depression Breakthrough: Nerve Stimulation Frees One in Five from Treatment-Resistant Despair",
-      "summary": "A surgically implanted vagus nerve stimulation device left one in five people with severe treatment-resistant depression symptom-free after two years.",
+      "headline": "Nerve implant lifts people from treatment-resistant depression; one in five become essentially depression-free",
+      "summary": "A surgically implanted vagus nerve device delivered lasting relief for treatment-resistant depression, with one in five patients achieving near-complete freedom.",
       "section": "Future Proof",
-      "positivity": 0.84,
+      "positivity": 0.85,
       "url": "https://www.sciencealert.com/vagus-nerve-stimulation-has-a-profound-impact-on-severe-depression-major-trial-finds",
       "image": "https://www.sciencealert.com/images/2026/07/Vagus-Nerve-Science-Photo-Library.jpg",
       "source": "sciencealert.com",
       "publishedAt": "2026-07-03"
     },
     {
-      "id": "sv1fw1q",
-      "headline": "Kindness Served: Restaurant Owner Goes Extra Mile for Fasting Customer",
-      "summary": "A Bangalore restaurant owner who couldn't deliver through the app instead sent a fasting customer double portions of sabudana khichdi with curd and fruit after a 30-minute call.",
-      "section": "Kind Humans",
-      "positivity": 0.83,
-      "url": "https://newsable.asianetnews.com/karnataka-news/my-heart-is-full-bengaluru-restaurant-owners-surprise-gesture-fasting-woman-leaves-internet-touched-articleshow-kqvp515",
-      "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01kwpn5yjpv7jpjwcb3z3eem4b,imgname-bengaluru-food-gesture-1783171840597.jpg",
-      "source": "newsable.asianetnews.com",
-      "publishedAt": "2026-07-04"
-    },
-    {
-      "id": "su5a3u8",
-      "headline": "Scientists Build First Fully Synthetic Cell From Scratch—It Feeds, Grows, and Divides",
-      "summary": "University of Minnesota researchers created SpudCell, a chemically-defined synthetic organism that lives and replicates, opening doors to custom medicines and bio-engineered materials.",
-      "section": "Future Proof",
-      "positivity": 0.81,
-      "url": "https://www.techtimes.com/articles/319677/20260704/synthetic-cell-built-scratch-completes-full-life-cycle-smashes-genome-floor.htm",
-      "image": "https://d.techtimes.com/en/full/468032/micrograph-showing-spherical-terminal-button-part-exterior-removed-revealing-solid-interior.png",
-      "source": "techtimes.com",
+      "id": "s13p6es3",
+      "headline": "Twenty-one-year-old Filipino phenom upsets defending Wimbledon champion",
+      "summary": "Twenty-one-year-old Filipino phenom Alex Eala upset defending champion Iga Swiatek 6-4, 3-6, 7-5 on Centre Court, marking her career-best Grand Slam performance.",
+      "section": "Fair Play & Triumphs",
+      "positivity": 0.82,
+      "url": "https://www.latestly.com/sports/tennis/wimbledon-2026-alex-eala-stuns-defending-champion-iga-swiatek-in-thrilling-third-round-upset-7503143.html",
+      "image": "https://st1.latestly.com/wp-content/uploads/2026/07/eala-784x441.jpg",
+      "source": "latestly.com",
       "publishedAt": "2026-07-04"
     },
     {
       "id": "sqeu64l",
-      "headline": "Maine's Piping Plovers Soar to Record Numbers—186 Breeding Pairs Signal Thriving Coasts",
-      "summary": "Maine celebrates a record 186 piping plover breeding pairs this year, a dozen more than the previous record, signaling thriving and restored coastal ecosystems.",
+      "headline": "Maine's piping plovers hit record high: hope for an endangered species",
+      "summary": "Maine's piping plovers hit a record 186 breeding pairs this year, beating last year's previous record by a dozen pairs.",
       "section": "Earth Restored",
-      "positivity": 0.8,
+      "positivity": 0.81,
       "url": "https://www.mainepublic.org/climate/2026-07-03/maine-has-a-record-number-of-piping-plover-breeding-pairs-this-year",
       "image": "https://npr.brightspotcdn.com/dims4/default/18f9609/2147483647/strip/true/crop/2216x1163+0+110/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F75%2Fd2%2F06ad4f58453ea25c8efa0f2d539b%2Fap1604012214374328.jpg",
       "source": "mainepublic.org",
       "publishedAt": "2026-07-03"
     },
     {
-      "id": "s1v8g421",
-      "headline": "Experimental Drug Halts the Spread of Nerve Damage in ALS Patients",
-      "summary": "Researchers engineered XL20, an experimental drug that crosses the blood-brain barrier to block toxic TDP-43 proteins and halt nerve cell death in ALS.",
+      "id": "su5a3u8",
+      "headline": "Scientists create first fully synthetic cell that feeds, grows, and divides",
+      "summary": "SpudCell marks a breakthrough: a chemically-defined synthetic organism completing its full life cycle, opening doors to custom medicine.",
       "section": "Future Proof",
-      "positivity": 0.79,
-      "url": "https://neurosciencenews.com/xl20-als-tdp43-neuroprotection-30988/",
-      "image": "https://neurosciencenews.com/files/2026/07/als-xd20-neuropharmacology-neurosciene.jpg",
-      "source": "neurosciencenews.com",
-      "publishedAt": "2026-07-03"
-    },
-    {
-      "id": "sdofdbq",
-      "headline": "Tiny Wings, Mighty Mission: Over 1,300 Oregon Silverspot Butterflies Released Into the Wild",
-      "summary": "Oregon releases 1,300 rare native butterfly caterpillars into protected coastal habitats as a decades-long restoration mission enters another promising season.",
-      "section": "Earth Restored",
-      "positivity": 0.77,
-      "url": "https://www.grantspasstribune.com/tiny-butterfly-big-mission-oregons-coastal-conservation-effort-enters-another-promising-season/",
-      "image": "https://www.grantspasstribune.com/wp-content/uploads/2026/07/silverspot-butterfly.png",
-      "source": "grantspasstribune.com",
-      "publishedAt": "2026-07-03"
+      "positivity": 0.8,
+      "url": "https://www.techtimes.com/articles/319677/20260704/synthetic-cell-built-scratch-completes-full-life-cycle-smashes-genome-floor.htm",
+      "image": "https://d.techtimes.com/en/full/468032/micrograph-showing-spherical-terminal-button-part-exterior-removed-revealing-solid-interior.png",
+      "source": "techtimes.com",
+      "publishedAt": "2026-07-04"
     }
   ]
 }
