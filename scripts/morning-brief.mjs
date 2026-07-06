@@ -35,7 +35,8 @@ function buildBrief(edition, xPost) {
   const ranked = [...edition.stories].sort((a, b) => (b.positivity || 0) - (a.positivity || 0));
   const picks = ranked.slice(0, 3).map((s, i) => {
     const subs = subsFor(s).join("  ");
-    return `  ${i + 1}. ${s.headline}\n     → post to: ${subs}\n     link: ${s.url}`;
+    const page = `${SITE}/s/${s.id}.html`;
+    return `  ${i + 1}. ${s.headline}\n     → post to: ${subs}\n     POST THIS LINK: ${page}\n     (source, if a sub bans self-promo: ${s.url})`;
   });
   return [
     `☀️  BRIGHT & EARLY — MORNING BRIEF · ${prettyDate(edition.date)}`,

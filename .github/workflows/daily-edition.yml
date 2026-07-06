@@ -97,5 +97,16 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      # GitHub Pages occasionally returns a transient "Deployment failed, try
+      # again later." Attempt once, and if that fails, wait and retry — a stuck
+      # deploy would otherwise silently leave the site on yesterday's edition.
       - id: deployment
+        continue-on-error: true
+        uses: actions/deploy-pages@v5
+
+      - name: Retry deploy if the first attempt failed
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 30
+      - id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v5
