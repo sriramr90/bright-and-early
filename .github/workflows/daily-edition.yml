@@ -30,6 +30,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Backstop: a normal build takes a few minutes. If a network call ever wedges
+    # despite the per-request timeouts, fail here instead of hanging ~6h (or
+    # burning minutes until a later run cancels this one).
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v6
 

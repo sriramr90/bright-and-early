@@ -59,6 +59,49 @@ Respond with ONLY a JSON object, no prose and no markdown fences, in exactly thi
 {"stories":[{"id":"<candidate id>","headline":"...","summary":"...","section":"<one of the sections>","positivity":0.0}]}
 positivity is the SMILE SCORE from 0 to 1 — how much the story would make a reader smile (be honest; reserve above 0.8 for genuinely delightful, heart-warming stories). Prefer higher-smile stories. Use the exact id from each candidate you select.`;
 
+// POST to OpenRouter with a hard request timeout and a couple of retries, so a
+// stalled connection can never wedge the whole build (it can't — an aborted
+// request throws and we retry, then fail fast to the caller). Mirrors the
+// timeout guard already used in sources/websearch.mjs. Returns the message text.
+async function postOpenRouter(key, body, { timeoutMs = 120000, retries = 1 } = {}) {
+  let lastErr;
+  for (let attempt = 1; attempt <= retries + 1; attempt++) {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), timeoutMs);
+    try {
+      const res = await fetch(OPENROUTER_URL, {
+        method: "POST",
+        signal: ctrl.signal,
+        headers: {
+          Authorization: `Bearer ${key}`,
+          "Content-Type": "application/json",
+          // Optional attribution headers OpenRouter uses for its dashboards.
+          "HTTP-Referer": "https://github.com/sriramr90/bright-and-early",
+          "X-Title": "Bright & Early",
+        },
+        body: JSON.stringify(body),
+      });
+      if (!res.ok) {
+        const detail = await res.text().catch(() => "");
+        throw new Error(`OpenRouter ${res.status}: ${detail.slice(0, 300)}`);
+      }
+      const data = await res.json();
+      const content = data?.choices?.[0]?.message?.content;
+      if (!content) throw new Error("OpenRouter returned no content");
+      return content;
+    } catch (err) {
+      lastErr = err;
+      if (attempt <= retries) {
+        const why = err?.name === "AbortError" ? `timed out after ${timeoutMs / 1000}s` : err.message;
+        console.warn(`  ! OpenRouter ${why} (attempt ${attempt}/${retries + 1}); retrying…`);
+      }
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+  throw lastErr;
+}
+
 export async function curate(candidates) {
   const key = process.env.OPENROUTER_API_KEY;
   if (!key) throw new Error("OPENROUTER_API_KEY not set");
@@ -68,36 +111,17 @@ export async function curate(candidates) {
     .map((c) => `id: ${c.id}\ntitle: ${c.title}\nsource: ${c.source}\ntopic hint: ${c.section || "?"}\nblurb: ${c.description || "(none)"}`)
     .join("\n\n");
 
-  const res = await fetch(OPENROUTER_URL, {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${key}`,
-      "Content-Type": "application/json",
-      // Optional attribution headers OpenRouter uses for its dashboards.
-      "HTTP-Referer": "https://github.com/sriramr90/bright-and-early",
-      "X-Title": "Bright & Early",
-    },
-    body: JSON.stringify({
-      model,
-      max_tokens: 16000,
-      messages: [
-        { role: "system", content: SYSTEM },
-        {
-          role: "user",
-          content: `Here are today's candidate stories from across the world. Curate tomorrow morning's edition.\n\n${catalogue}`,
-        },
-      ],
-    }),
+  const content = await postOpenRouter(key, {
+    model,
+    max_tokens: 16000,
+    messages: [
+      { role: "system", content: SYSTEM },
+      {
+        role: "user",
+        content: `Here are today's candidate stories from across the world. Curate tomorrow morning's edition.\n\n${catalogue}`,
+      },
+    ],
   });
-
-  if (!res.ok) {
-    const detail = await res.text().catch(() => "");
-    throw new Error(`OpenRouter ${res.status}: ${detail.slice(0, 300)}`);
-  }
-
-  const data = await res.json();
-  const content = data?.choices?.[0]?.message?.content;
-  if (!content) throw new Error("OpenRouter returned no content");
 
   const parsed = parseJson(content);
   const byId = new Map(candidates.map((c) => [c.id, c]));
@@ -152,32 +176,14 @@ export async function resummarize(stories) {
     .map((s) => `id: ${s.id}\nheadline: ${s.headline}\ncurrent summary: ${s.summary || "(none)"}\narticle excerpt: ${s._text}`)
     .join("\n\n");
 
-  const res = await fetch(OPENROUTER_URL, {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${key}`,
-      "Content-Type": "application/json",
-      "HTTP-Referer": "https://github.com/sriramr90/bright-and-early",
-      "X-Title": "Bright & Early",
-    },
-    body: JSON.stringify({
-      model,
-      max_tokens: 8000,
-      messages: [
-        { role: "system", content: RESUMMARIZE_SYSTEM },
-        { role: "user", content: `Rewrite each summary with a specific detail from its article.\n\n${catalogue}` },
-      ],
-    }),
-  });
-
-  if (!res.ok) {
-    const detail = await res.text().catch(() => "");
-    throw new Error(`OpenRouter ${res.status}: ${detail.slice(0, 300)}`);
-  }
-
-  const data = await res.json();
-  const content = data?.choices?.[0]?.message?.content;
-  if (!content) throw new Error("OpenRouter returned no content");
+  const content = await postOpenRouter(key, {
+    model,
+    max_tokens: 8000,
+    messages: [
+      { role: "system", content: RESUMMARIZE_SYSTEM },
+      { role: "user", content: `Rewrite each summary with a specific detail from its article.\n\n${catalogue}` },
+    ],
+  }, { timeoutMs: 90000 });
 
   const parsed = parseJson(content);
   const byId = new Map((parsed.stories || []).map((p) => [p.id, p.summary]));
