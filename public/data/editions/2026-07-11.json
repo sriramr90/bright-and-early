@@ -1,6 +1,6 @@
 {
   "date": "2026-07-11",
-  "generatedAt": "2026-07-11T11:27:34.419Z",
+  "generatedAt": "2026-07-11T12:40:19.303Z",
   "masthead": "Bright & Early",
   "tagline": "Yesterday's good news, bright and early.",
   "sections": [
@@ -10,111 +10,45 @@
     "Kind Humans",
     "Earth Restored"
   ],
-  "storyCount": 12,
+  "storyCount": 9,
   "stories": [
     {
-      "id": "s1xq99hf",
-      "headline": "Blind Adults Read Again After Pioneering Stanford Implant Restores Their Sight",
-      "summary": "Twenty-six formerly blind patients joyfully recovered vision through a revolutionary tiny implant, reading and recognizing faces once more.",
-      "section": "Global Wins",
-      "positivity": 0.95,
-      "url": "https://timesnewsnetworks.com/blind-adults-regain-vision-read-again-as-first-of-its-kind-chip-invented-by-stanford-scientist/",
-      "image": "https://nypost.com/wp-content/uploads/sites/2/2026/07/133768789.jpg?quality=75&#038;strip=all&#038;w=1200",
-      "source": "timesnewsnetworks.com",
-      "publishedAt": "2026-07-09"
-    },
-    {
-      "id": "sltx25e",
-      "headline": "After Hurricane Helene, One Woman Recovers Lost Treasures and Reunites Heartbroken Families",
-      "summary": "Former raft guide Mandy Wallace now recovers treasures from flooded rivers, recently reuniting a handmade wooden sign carved with a napping cat back to the Hedricks family.",
-      "section": "Global Wins",
-      "positivity": 0.92,
-      "url": "https://www.bpr.org/helene-recovery/2026-07-09/the-things-hurricane-helene-carried-away-and-the-woman-trying-to-return-them",
-      "image": "https://npr.brightspotcdn.com/dims4/default/0ed1fe6/2147483647/strip/true/crop/3060x1607+0+0/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F20%2Fd1%2F6bcdf85249e9821be019dcf4895f%2Fmandy-crop.jpg",
-      "source": "bpr.org",
-      "publishedAt": "2026-07-09"
-    },
-    {
-      "id": "s1ln95tp",
-      "headline": "Community WhatsApp Group Pivots Wheelchair Fund to Send Disabled Boy to School",
-      "summary": "When a child received his needed wheelchair, a compassionate group redirected their fundraising to ensure his education continues uninterrupted.",
-      "section": "Global Wins",
-      "positivity": 0.88,
-      "url": "https://www.thekampalareport.com/latest/community/2026070965411/voice-of-west-nile-whatsapp-group-turns-wheelchair-fund-into-school-support-for-disabled-boy.html",
-      "source": "thekampalareport.com",
-      "publishedAt": "2026-07-09"
-    },
-    {
-      "id": "spwl6wv",
-      "headline": "Tigers Roar Back in Manas: Population Surges From 14 to Nearly 60 in a Decade",
-      "summary": "Tigers in Manas National Park surged from just 14 in 2015 to nearly 60 today, thanks to community collaboration that helped both wildlife and local people flourish together.",
+      "id": "s15i9rhj",
+      "headline": "Nearly 100 Disabled Golfers Find Their Voice at Golf's Most Joyful Event",
+      "summary": "Nearly 96 adaptive golfers from around the world gathered at Rockville's U.S. Adaptive Open, where players like Max Togisala shot a 67 from a three-wheeled cart, proving golf's most joyful event celebrates determination over disability.",
       "section": "Global Wins",
       "positivity": 0.87,
-      "url": "https://theshillongtimes.com/2026/07/09/tiger-is-burning-bright-anew-in-manas-and-communities-thrive-in-the-landscape/",
-      "source": "theshillongtimes.com",
-      "publishedAt": "2026-07-09"
-    },
-    {
-      "id": "s15i9rhj",
-      "headline": "U.S. Adaptive Open Proves Golf's True Spirit: Perseverance, Joy, and Unwavering Support",
-      "summary": "At the U.S. Adaptive Open, 96 golfers from around the world compete with no prize money, including Max Togisala who shot a 67 from a three-wheeled golf cart.",
-      "section": "Fair Play & Triumphs",
-      "positivity": 0.86,
       "url": "https://theamericanhabit.com/feeling-cynical-about-golf-the-u-s-adaptive-open-will-restore-your-faith/",
       "image": "https://golf.com/wp-content/uploads/2026/07/max-togisala.jpg?_t=1783554750",
       "source": "theamericanhabit.com",
       "publishedAt": "2026-07-09"
     },
     {
-      "id": "s76y89w",
-      "headline": "Scientists Engineer Endless Supply of Cancer-Fighting Immune Cells",
-      "summary": "USC scientists engineered renewable cancer-fighting immune cells that can self-renew in the lab and be genetically engineered to recognize tumors, challenging decades of biological assumptions.",
-      "section": "Future Proof",
+      "id": "s1ln95tp",
+      "headline": "Community Pivots Wheelchair Fund to Give Disabled Boy His Education Back",
+      "summary": "When a wheelchair was donated, community members redirected remaining funds to pay school fees for a child who desperately needed to learn.",
+      "section": "Global Wins",
+      "positivity": 0.85,
+      "url": "https://www.thekampalareport.com/latest/community/2026070965411/voice-of-west-nile-whatsapp-group-turns-wheelchair-fund-into-school-support-for-disabled-boy.html",
+      "source": "thekampalareport.com",
+      "publishedAt": "2026-07-09"
+    },
+    {
+      "id": "spwl6wv",
+      "headline": "Tigers Roar Back from Brink: Manas Sanctuary Rebounds From 14 to Nearly 60",
+      "summary": "Manas National Park's tiger population roared back from just 14 in 2015 to nearly 60 today, thanks to Dr. M. Firoz Ahmed's philosophy of helping both wildlife and local communities flourish together.",
+      "section": "Global Wins",
       "positivity": 0.84,
-      "url": "https://scienow.com/usc-team-creates-renewable-supply-of-cancer-fighting-immune-cell-precursors",
-      "image": "https://scienow.com/uploads/news/usc-team-creates-renewable-supply-of-cancer-fighting-immune-cell-precursors.jpg",
-      "source": "scienow.com",
+      "url": "https://theshillongtimes.com/2026/07/09/tiger-is-burning-bright-anew-in-manas-and-communities-thrive-in-the-landscape/",
+      "source": "theshillongtimes.com",
       "publishedAt": "2026-07-09"
-    },
-    {
-      "id": "s1elzmcv",
-      "headline": "Company Donates Free Central Air to Veteran, Turning Empathy Into Cool Relief",
-      "summary": "When veteran Charles Hicks struggled to breathe without cooling, Tyler's Heating and Cooling—owned by a fellow veteran—donated and installed free central air conditioning.",
-      "section": "Kind Humans",
-      "positivity": 0.84,
-      "url": "https://www.wndu.com/2026/07/09/company-donates-free-central-ac-unit-veteran-after-i-team-report/",
-      "image": "https://gray-wndu-prod.gtv-cdn.com/resizer/v2/OEEDJV4E3BG7DCKLS2TGOIVFFM.jpg?auth=cc28876f857fb5bd2504c9590b93c6943e442ab5ca33dfb34397685f154abb64&width=1200&height=600&smart=true",
-      "source": "wndu.com",
-      "publishedAt": "2026-07-09"
-    },
-    {
-      "id": "s17supkr",
-      "headline": "Bank Employees Turn Gas Cards Into Meals for Seniors",
-      "summary": "Bank employees donated their gift cards to Meals On Wheels, raising $3,000 to keep seniors fed during expensive times.",
-      "section": "Kind Humans",
-      "positivity": 0.83,
-      "url": "https://turnto10.com/news/coronavirus/bank-employees-100-gas-gift-cards-chose-donate-them-meals-wheels-rhode-island-rising-costs-stores-purchasing-sharing-july-9-2026",
-      "image": "https://turnto10.com/resources/media2/16x9/1920/1320/center/90/943522e7-c56a-4ca1-90d6-0059f9c2b06d-530PPSGGASGIFTCARDS.transfer_frame_0.jpeg",
-      "source": "turnto10.com",
-      "publishedAt": "2026-07-09"
-    },
-    {
-      "id": "s1w81c6k",
-      "headline": "Teen's Second-Life Mission: 5,300 Used Tennis Balls Find Purpose in Schools and Shelters",
-      "summary": "Seventeen-year-old Max Shilt has repurposed over 5,300 tennis balls destined for landfills, giving them new life in schools and animal shelters.",
-      "section": "Fair Play & Triumphs",
-      "positivity": 0.82,
-      "url": "https://www.local10.com/community/2026/07/10/south-florida-teen-gives-thousands-of-used-tennis-balls-a-second-life-through-nonprofit/",
-      "image": "https://wplginc-wplg-prod.web.arc-cdn.net/resizer/v2/https%3A%2F%2Fd2p7h58ldpiqzj.cloudfront.net%2F07-10-2026%2Ft_a76ee6363c744b19b264229ede518a20_name_47078874979_hdtv.jpg?auth=2d8f2db85d21152c7a85c0f98919b94ab395d4c2fc87688831fd453898790c28&width=700",
-      "source": "local10.com",
-      "publishedAt": "2026-07-10"
     },
     {
       "id": "s1ddn46v",
-      "headline": "Surgeons Control Humanoid Robots to Perform World-First Operation on Live Subjects",
-      "summary": "Surgeons at UC San Diego remotely controlled humanoid robots to remove gallbladders from live pigs, offering hope for affordable surgical care in under-resourced hospitals.",
-      "section": "Future Proof",
-      "positivity": 0.8,
+      "headline": "Surgeons Guide Robots Through World-First Operation, Bringing Hope to Underserved Hospitals",
+      "summary": "Surgeon Shanglei Liu remotely controlled humanoid robots to perform minimally invasive gallbladder removals on live pigs, proving this affordable technology could bring advanced surgery to underserved hospitals.",
+      "section": "Global Wins",
+      "positivity": 0.82,
       "url": "https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/humanoid-robot-surgeons-1152x648.png",
       "source": "arstechnica.com",
@@ -122,8 +56,8 @@
     },
     {
       "id": "s1wi9gmv",
-      "headline": "Critically Endangered Great Indian Bustard Chick Passes Critical Survival Phase",
-      "summary": "A critically endangered Great Indian Bustard chick survived past its dangerous 40-day window, offering fresh hope for one of Earth's rarest birds.",
+      "headline": "Critically Endangered Bustard Chick Takes Flight After Surviving Vulnerable Stage",
+      "summary": "Overlooked athletes celebrated as champions at the U.S. Adaptive Open, where determination and community transformed the sport.",
       "section": "Earth Restored",
       "positivity": 0.8,
       "url": "https://timesofindia.indiatimes.com/city/ahmedabad/second-jump-start-gib-chick-survives-critical-40-day-phase-in-naliya/articleshow/132297008.cms",
@@ -132,14 +66,47 @@
       "publishedAt": "2026-07-09"
     },
     {
-      "id": "sxkl3m4",
-      "headline": "79 Endangered Hawksbill Sea Turtle Hatchlings Released Into the Ocean",
-      "summary": "Alert citizens spotted 79 hawksbill sea turtle hatchlings near Progreso's 71st street, prompting authorities to rescue and safely release them into the ocean.",
-      "section": "Earth Restored",
+      "id": "s1w81c6k",
+      "headline": "Seventeen-Year-Old's Tennis Ball Rescue: 5,300 Discards Find New Purpose",
+      "summary": "Max Shilt's nonprofit gives used tennis balls a second life in schools, shelters, and nursing homes across South Florida.",
+      "section": "Fair Play & Triumphs",
       "positivity": 0.79,
+      "url": "https://www.local10.com/community/2026/07/10/south-florida-teen-gives-thousands-of-used-tennis-balls-a-second-life-through-nonprofit/",
+      "image": "https://wplginc-wplg-prod.web.arc-cdn.net/resizer/v2/https%3A%2F%2Fd2p7h58ldpiqzj.cloudfront.net%2F07-10-2026%2Ft_a76ee6363c744b19b264229ede518a20_name_47078874979_hdtv.jpg?auth=2d8f2db85d21152c7a85c0f98919b94ab395d4c2fc87688831fd453898790c28&width=700",
+      "source": "local10.com",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "id": "szp9obk",
+      "headline": "Meet the Robot That Swims and Flies Like a Diving Bird",
+      "summary": "MIT engineers Raphael Zufferey and Moritz Hüsser created a biomimetic robot inspired by 100 diving bird species that swims and flies, offering an affordable way to monitor whales and coastal ecosystems.",
+      "section": "Future Proof",
+      "positivity": 0.78,
+      "url": "https://news.mit.edu/2026/new-flapping-robot-swims-and-flies-like-diving-bird-0709",
+      "image": "https://news.mit.edu/sites/default/files/images/202607/MIT-flapping-robot-01-press.jpg",
+      "source": "news.mit.edu",
+      "publishedAt": "2026-07-09"
+    },
+    {
+      "id": "sxkl3m4",
+      "headline": "79 Endangered Sea Turtle Hatchlings Released Into the Sea",
+      "summary": "Community vigilance saved 79 endangered hawksbill hatchlings spotted near 71st street in Progreso, Yucatán, when citizens alerted authorities who safely released them into the sea.",
+      "section": "Earth Restored",
+      "positivity": 0.77,
       "url": "https://theyucatantimes.com/2026/07/79-endangered-hawksbill-sea-turtle-hatchlings-were-released-in-progreso/",
       "image": "https://theyucatantimes.com/wp-content/uploads/2026/07/tortuga-carey-bb-e1783617584465.jpg",
       "source": "theyucatantimes.com",
+      "publishedAt": "2026-07-09"
+    },
+    {
+      "id": "s17supkr",
+      "headline": "Bank Workers Turn Gas Cards Into Fuel for Community Care",
+      "summary": "Ten percent of bank workers donate personal gift cards to power Meals On Wheels delivery vehicles across their region.",
+      "section": "Kind Humans",
+      "positivity": 0.76,
+      "url": "https://turnto10.com/news/coronavirus/bank-employees-100-gas-gift-cards-chose-donate-them-meals-wheels-rhode-island-rising-costs-stores-purchasing-sharing-july-9-2026",
+      "image": "https://turnto10.com/resources/media2/16x9/1920/1320/center/90/943522e7-c56a-4ca1-90d6-0059f9c2b06d-530PPSGGASGIFTCARDS.transfer_frame_0.jpeg",
+      "source": "turnto10.com",
       "publishedAt": "2026-07-09"
     }
   ]
