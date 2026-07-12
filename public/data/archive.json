@@ -1,6 +1,11 @@
 {
-  "count": 40,
+  "count": 41,
   "editions": [
+    {
+      "date": "2026-07-12",
+      "storyCount": 14,
+      "lead": "A Four-Year-Old's Daily Wave Transforms Lonely Hearts Into a Tight-Knit Community"
+    },
     {
       "date": "2026-07-11",
       "storyCount": 9,
